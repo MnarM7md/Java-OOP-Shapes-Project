@@ -44,10 +44,10 @@ public class Cube extends ThreeDShape {
         return "Cube";
     }
 
-    public void draw(Graphics g, int x, int y) {//ميثود رسم المكعب
+    public void draw(Graphics g, int x, int y) {
         int s = (int) (side* SCALE);
         
-        int offset = (int)(10* SCALE);//* SCALE عشان يدي شكل مكعب مش مربع
+        int offset = (int)(10* SCALE);
 
         
         g.drawRect(x, y, s, s);// 1
