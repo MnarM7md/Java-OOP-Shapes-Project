@@ -23,7 +23,7 @@ public class Circle extends Shape {
     }
 
     public double getRadius() {
-        return radius;
+        return radius;00
     }
 
     public void setRadius(double radius) {
@@ -53,9 +53,9 @@ public class Circle extends Shape {
     
     
     
-     public void draw(Graphics g, int x, int y) {// ميثود رسم الدايرة
-        
-         int r = (int) (radius * SCALE);// الحجم* SCALE
+     public void draw(Graphics g, int x, int y) {
+         
+         int r = (int) (radius * SCALE);
 
          g.drawOval(x, y, r , r );
          // Draw text
