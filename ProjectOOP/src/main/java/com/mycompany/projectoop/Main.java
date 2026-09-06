@@ -66,7 +66,7 @@ public class Main {
     public static void drawGUI(Drawable[] arr) { 
         JFrame frame = new JFrame("Shapes Drawer"); 
         frame.setSize(600, 400); 
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // اقفل البرنامج عند إغلاق النافذة
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); 
 
         JPanel panel = new JPanel() { 
             protected void paintComponent(Graphics g) { 
@@ -76,13 +76,13 @@ public class Main {
                 int y = 100; 
 
                 for (Drawable d : arr) { 
-                    if (d instanceof Circle) { //لو دايرة
+                    if (d instanceof Circle) {  
                         ((Circle) d).draw(g, x, y); 
                     } 
-                    else if (d instanceof Cube) { // لو مكعب
+                    else if (d instanceof Cube) {
                         ((Cube) d).draw(g, x, y); 
                     }
-                    x += 200; //المسافة بين الاشكال
+                    x += 200; 
                 }
             }
         };
