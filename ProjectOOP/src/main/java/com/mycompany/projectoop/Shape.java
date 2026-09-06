@@ -6,7 +6,7 @@ import java.util.Date;
 
 public abstract class Shape implements Drawable {
     
-    protected static final double SCALE = 3.0; //عشان اتحكم في الشكل SCALE
+    protected static final double SCALE = 3.0; 
      
      
     protected Date dateCreated;
