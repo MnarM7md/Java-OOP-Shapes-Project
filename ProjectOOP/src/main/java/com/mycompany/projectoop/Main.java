@@ -21,14 +21,14 @@ public class Main {
             k = new Scanner(f); 
 
             int n = Integer.parseInt(k.next()); 
-            Drawable[] ar = new Drawable[n]; //  مصفوفة لتخزين الأشكال
+            Drawable[] ar = new Drawable[n]; 
 
             double sum = 0; 
             String type;
-            double len; //نق
+            double len; 
 
             for (int i = 0; i < ar.length; i++) {
-                type = k.next(); // قراءة نوع الشكل
+                type = k.next(); 
                 len = Double.parseDouble(k.next()); 
 
                 switch (type) { 
